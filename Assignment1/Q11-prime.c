@@ -19,7 +19,7 @@ int main() {
         }
 
         if(isPrime == true)
-            printf("%d ", i);
+            printf("%d |", i);
     }
 
     return 0;

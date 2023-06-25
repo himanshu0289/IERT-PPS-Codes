@@ -6,7 +6,7 @@ int main(){
     pm=p+m;
     pcm=p+c+m;
     if(p>40 && c>50 && m>60){
-        if(pm>150 && pcm>200){
+        if(pm>150 || pcm>200){
             printf("Pass");
         }
     }
