@@ -1,7 +1,7 @@
 //***Q:- WAP to copy the contents of one arr into another in the reverse order.
 #include<stdio.h>
 #include<conio.h>
-void reverse(int arr[],)
+void reverse(int arr[]){
     int st = 0;
     int end = 7;
   while(st<=end){
@@ -11,7 +11,7 @@ void reverse(int arr[],)
         st++;
         end--;
        }
-       return ;
+       return 0;
 }
 int main(){
    int  arr[8] = {1,2,3,4,5,6,7,8};  

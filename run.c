@@ -7,11 +7,11 @@ int main( )
      scanf("%d",&n); // 6
      printf("Fibonacci Series :");
      for(i=1;i<=n;i++){
-        printf("%d ",t1); // 0 1 1 2 3 5
-        nextterm=t1+t2;  // 0+1 = 1
-        t1=t2;   // t1=1
-        t2=nextterm; // t2=1 go for loop
-     }
+   //      printf("%d ",t1); // 0 1 1 2 3 5
+   //      nextterm=t1+t2;  // 0+1 = 1
+   //      t1=t2;   // t1=1
+   //      t2=nextterm; // t2=1 go for loop
+   //   }
 
     return 0 ;
 }
